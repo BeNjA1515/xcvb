@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Practica</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="enviar.php">
+</head>
+
+
+<body>
+   <div class="agrupar">
+    <header class="cabecera">
+        <h1>
+            Pagina web de practica
+        </h1>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li>
+                Inicio
+            </li>
+            <li>
+                Ayuda
+            </li>
+            <li>
+                Contacto
+            </li>
+        </ul>
+    </nav>
+    <section class="seccion">
+        <article>
+            <h1>
+                Primer articulo
+            </h1>
+            <time datetime="12/10/2018">Publicado El 12/10/2018</time>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis voluptates magni maiores
+                similique incidunt in doloribus. Totam architecto delectus rem corrupti laudantium aliquam ex, laborum t
+                emporibus magni reiciendis veritatis quibusdam!
+            </p>
+            <section class="seccion-comentarios">
+            <footer>
+                Comentarios (12)
+            </footer>
+            </section>
+            <footer class="pie-comentarios">
+
+            </footer>
+        </article>
+        <article>
+            <h1>
+                Segundo articulo
+            </h1>
+            <time datetime="13/10/2018">Publicado El 13/10/2018</time>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint maiores rem quisquam quis at dolor magnam,
+                 harum fuga consequatur quam perferendis quidem quasi. Nesciunt velit aliquam facilis nemo, illo blanditiis?
+            </p>
+            <section class="seccion-comentarios-dos">
+            <footer>
+                Comentarios (18)
+            </footer>
+        </section>
+        <footer class="pie-comentarios-dos">
+
+        </footer>
+        </article>
+    </section>
+
+    <aside class="columna"> 
+        <blockquote cite="https://gogle.com" > <!--se utilisa para hacer una cita de texto y se manejan en bloke-->
+           Sacado de gogle
+        </blockquote>
+        <blockquote cite="https://WhatsApp.com"> <!--se utilisa para hacer una cita de texto y se manejan en bloke-->
+            Sacado de WhatsApp
+         </blockquote>
+
+    </aside>
+    <footer class="pie-de-pagina">
+        Benny Cohen 2020
+    </footer>
+   </div>
+   <div id="divform">
+       <form action="enviar.php" method="post">
+<input type="text" name="Nombre" placeholder="Nombre" required>
+<input type="text" name="Correo" placeholder="Correo" required>
+<input type="text" name="Telefono" placeholder="Telefono" required>
+<textarea name="Mensaje" placeholder="Escriba aqui su mensaje" required></textarea>
+<input type="submit" value="Enviar" id="boton"
+         </form>
+        </div>
+    
+</body>
+</html>

@@ -1,0 +1,146 @@
+.cabecera {
+    padding: 40px;
+    background:black;
+
+}
+.cabecera h1{
+    color: white;
+    text-align: left;
+}
+body{
+    text-align: center;
+}
+.menu{
+    text-align: left;
+    padding: 15px 5px;
+    background:rgb(236, 159, 59);
+
+}
+.menu li{
+    list-style: none;
+    display: inline;
+    padding: 10px 10px;
+}
+body{
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.agrupar{
+    width: 1000px;
+    margin: left;
+}
+.seccion{
+    width: 600px;
+    margin: 20px;
+    float: right;
+}
+.pie-de-pagina{
+    clear: both;
+    background: black;
+    color: white;
+    padding: 20px;
+}
+.columna{
+    width: 300px;
+    margin: 15px;
+    float: left;
+    padding-top: 10px;
+}
+article{
+    padding-bottom: 20px;
+    background: rgb(236, 159, 59);
+    padding: 20px;
+    margin: 10px;
+}
+blockquote{
+    
+    background: rgb(236, 159, 59);
+    padding: 20px;
+    margin: 10px;
+}
+div{
+    background: #ccc;
+}
+article footer{
+    text-align: right;
+    margin-top: 10px;
+   
+    
+}
+.seccion-comentarios{
+    background: black;
+    color: white;
+    width: 120px ;
+    padding: 5px 5px;
+    float: right;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+  
+}
+.pie-comentarios{
+    clear: both;
+
+}
+.seccion-comentarios-dos{
+    background: black;
+    color: white;
+    width: 120px ;
+    padding: 5px 5px;
+    float: right;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+  
+}
+.pie-comentarios-dos{
+    clear: both;
+
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;/*esto es para que el pading se aga hacia dentro*/
+}
+textarea{
+    min-height: 100px;/*esto es para que minimo tenga 100px de alto*/
+    max-height: 200px;/*esto es para que maximo tenga 200px de alto*/
+    max-width: 100%;/*esto es para que solo se alarge hasta el 100%de la pantalla*/
+}
+#boton{
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+
+}
+#boton:hover{/*esto es para que cuando el cursor pase por encima del boton cambie*/
+    cursor: pointer;
+}
+@media(max-width:960px){/*esto es un condicional. Si se cumpke tal condicion la pantalla se 
+    queda en tantos pixeles y si no haces esta accion*/
+    form{
+        width: 100%;
+    }
+}
+
+
